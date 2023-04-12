@@ -1,7 +1,22 @@
-<!-- <app-square [value]="'X'"> </app-square> -->
-<!-- <app-square [value]> </app-square>
-<app-square [value]="'X'"> </app-square> -->
-<!-- <app-board></app-board> -->
+<nb-layout>
 
-<app-board></app-board>
-<router-outlet></router-outlet>
+  <nb-layout-header fixed>
+  <!-- Insert header here -->
+  </nb-layout-header>
+
+  <nb-layout-column>
+    <!-- <app-square [value]="'X'"> </app-square> -->
+    <!-- <app-square [value]> </app-square>
+    <app-square [value]="'X'"> </app-square> -->
+    <!-- <app-board></app-board> -->
+    
+    <app-board></app-board>
+    <router-outlet></router-outlet>
+    
+  </nb-layout-column>
+
+  <nb-layout-footer fixed>
+  <!-- Insert footer here -->
+  </nb-layout-footer>
+
+</nb-layout>
