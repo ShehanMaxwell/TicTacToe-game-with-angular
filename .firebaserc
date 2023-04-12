@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "tictactoe-angular-d4e32": {
+      "hosting": {
+        "myapp": [
+          "tictactoe-angular-d4e32"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "tictactoe-angular-d4e32"
+  }
+}
